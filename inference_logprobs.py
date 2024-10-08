@@ -15,8 +15,8 @@ args = parser.parse_args()
 
 # 初始化OpenAI API客户端
 client = OpenAI(
-    api_key='sk-BccFVBhmlSgklf6n504a2f3a5cA04f6d8c20718652Ea3d2c',
-    base_url="https://aihubmix.com/v1"  # 替换为你要访问的 API 入口
+    api_key='xxx', #将这里换成你在api keys
+    base_url="xxx"  # 替换为你要访问的 API 入口
 )
 
 def find_indices(lst, value):
